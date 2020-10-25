@@ -46,3 +46,7 @@ sudo sed -i "s#$ADir#${BDir}#" /usr/local/bin/rcsoccersim3d
 echo "Rebinding with RoboViz"
 
 echo "Installation Done"
+
+echo "Add a line : \"export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/simspark:/usr/local/lib/rcssserver3d\" in your \".bashrc\" or \".zshrc\" according to which shell you use"
+
+echo "Or you will not be able to run rcssserver3d individually, but you can still run rcsoccersim3d"
